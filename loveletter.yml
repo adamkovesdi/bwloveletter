@@ -1,0 +1,50 @@
+Leftbar:
+  x: '3 mm'
+Rightbar:
+  x: '16 mm'
+Bottom:
+  y: '65 mm'
+
+Title:
+  extends:
+   - Rightbar
+  y: '4.5 mm'
+  width: '40 mm'
+  font: 'ChunkFive 48'
+  align: center
+
+Picture:
+  extends:
+   - Rightbar
+  y: '14 mm'
+  height: '50 mm'
+  width: '40 mm'
+
+Number:
+  extends:
+   - Leftbar
+  y: '3mm'
+  font: 'ChunkFive 150'
+
+Icon:
+  extends:
+   - Leftbar
+  y: '19 mm'
+  width: '8.5 mm'
+  height: '8.5 mm'
+
+Description:
+  extends: Bottom
+  font: 'Baskerville 40'
+  x: '5 mm'
+  width: '53.5 mm'
+  height: '22 mm'
+  align: center
+  valign: middle
+
+# The "cut line", without rounded corners
+# cut:
+# x: 0 
+# y: 0 
+# width: '63.4 mm'
+# height: '88.8 mm'
